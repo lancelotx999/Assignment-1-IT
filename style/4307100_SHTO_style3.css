@@ -1,0 +1,591 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #F9A7B0;
+		font-family: 'Questrial', sans-serif;
+		font-size: 12pt;
+	}
+	
+	/*=======================Menu=====================*/
+	#menu
+	{
+		height: 50px;
+	}
+	
+	#menu ul
+	{
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		padding: 0em 1.5em;
+		text-decoration: none;
+		font-size: 1em;
+		font-weight: 600;
+		text-transform: uppercase;
+		line-height: 60px;
+		outline: 0;
+		color: #000000;
+	}
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: #FFF;
+		border-radius: 7px 7px 0px 0px;
+		color: #F9A7B0;
+	} 
+	
+	
+	/*Banner*/
+	#banner
+	{
+		padding: 2em 0em;
+		background: #FFF;
+		text-align: center;
+	}
+	
+	/*====================LOGO==================*/
+	#logo 
+		{
+		padding: 3em 0em 4em 0em;
+		text-align:center;
+		}
+		
+	/*copyright*/
+	#copyright p
+	{
+		background-color:#F9A7B0;
+		letter-spacing: 2px;
+		font-size: 1em;
+		color: #0C090A;
+		text-align: center;
+		padding: 5em 20em;
+	}
+	
+	#copyright
+	{
+		background-color:#F9A7B0;
+	}
+	
+	/*bottom*/
+	.bottom
+	{
+		padding: 0;
+		height: 900px;
+		background: #FFDFDD;
+		text-align: center;
+	}
+	
+	.index .indextable
+	{
+		background-color:white;
+		padding: 0em;
+		border:5px solid #F433FF;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.index .indextable tbody h2 
+	{
+		color: white;
+		font-family:Arial;
+		text-align:center;
+	}
+	.index .indextable th
+	{
+		background-color:#F52887;
+	}
+	.index .indextable td
+	{
+		background-color:#F52887;
+		text-align:center
+	}
+	.index .indextable th,tr,td
+	{
+		border:2px solid #FF00FF;
+	}
+	
+	.index .mid
+	{
+		background-color:#FFDFDD;
+	}
+	
+	.index .mid p
+	{
+		background-color: white;
+	}
+	
+	.activerun .mid
+	{
+		background-color:white;
+	}
+	.activerun #banner
+	{
+		text-align:center;
+		width: 1200px;
+		height: 300px;
+		margin-left :50px;
+		margin-right:100px;
+	}
+	.activerun .activerunintro
+	{
+		text-align:center;
+	}
+	
+	.activerun .registration
+	{
+		text-align:center;
+	}
+	
+	.activerun .mid fieldset
+	{
+		background-color:pink;
+	}
+	
+	.contact #banner
+	{
+		margin-left:auto;
+		margin-right:auto;
+		width: 800px;
+		height: 500px;
+	}
+
+	.contact .mid
+	{
+	background-color:white;
+	}
+
+	.contact .mid .address h1
+	{
+	text-align:left;
+	margin-left:30px;
+	font-family:"Arial";
+	}
+
+	.contact .mid .address h2
+	{
+	font-weight:800;
+	text-align:left;
+	margin-left:30px;
+	color:black;
+	}
+	
+	.contact .mid .address p
+	{
+	text-align:left;
+	margin-left:30px;
+	}
+
+	.contact .mid .address #officeno, #faxno
+	{
+	color:#E238EC;	
+	text-decoration:underline;
+	}
+
+	
+	.dota2 .mid
+	{
+		background-color:white;
+	}
+	.dota2 .banner
+	{
+		padding-top:10px;
+		margin-left:auto;
+		margin-right:auto;
+		width: 1000px;
+		height: 600px;
+	}
+	
+	.dota2 .dota2introduction
+	{
+		text-align:center;
+	}
+	
+	.dota2 .mid .prize h2
+	{
+	text-align:center;
+	}
+
+	.dota2 .mid .prize table
+	{
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid black;
+	box-shadow: 0px 20px 90px #F433FF;
+	}
+
+	.dota2 .mid .prize table th
+	{
+	color:black;
+	background-color:white;
+	border:2px solid black;
+	}
+	
+	.dota2 .Proteam h1
+	{
+		text-align:center;
+	}
+	.dota2 .Proteam p
+	{
+		margin-top:50px;
+		margin-bottom:50px;
+		margin-left:auto;
+		margin-right:auto;
+		width: 1000px;
+		height: 500px;
+	}
+	
+	.dota2 .Proteam h2
+	{
+		text-align:center;
+		padding-top:100px;
+		text-decoration:underline;
+	}
+	
+	.events #banner
+	{
+		margin-left:auto;
+		margin-right:auto;
+		width: 1300px;
+		height: 500px;
+	}
+	.events .mid
+	{
+		background-color:white;
+	}
+	.events .eventsintro h1
+	{
+		margin-left:10px;
+		font-size: 25pt;
+		font-family:"Times New Roman";
+		text-decoration:underline;
+	}
+	
+	.events .eventsintro h4
+	{
+		margin-left:10px;
+		font-size: 12pt;
+	}
+	
+	.events .eventsintro p
+	{
+		text-align:left;
+		margin-left:10px;
+		font-size: 10pt;
+	}
+	.events .mid #highlights
+	{
+		text-align:left;
+		padding-top:20px;
+		font-weight:200;
+		margin-left:10px;
+	}
+	
+	.events .mid .comingevents ul{
+	position: initial;
+	list-style-type:none;
+	display: block;
+	font-size:20px;
+}
+	.events .mid .comingevents #menuevents
+	{
+		width:auto;
+		background-color:#FF00FF;
+		border-bottom:double;
+		border-bottom-color:white;
+		border-top:double;
+		border-top-color:white;
+		padding: 5px;
+	}
+
+	.events .mid .comingevents #menuevents ul:before 
+	{
+		content: '';
+		display: block;
+	}
+	.events .mid .comingevents #menuevents:after
+	{
+		content: '';
+		display: table;
+		clear: both;
+	}	
+
+	.events .mid .comingevents #menuevents li:hover a 
+	{
+		color: #F433FF;
+		background-color:#FDD7E4;
+	}
+	.events .mid .comingevents #menuevents li:active a 
+	{
+		color: #fff;
+		background-color:#CC0099;
+		font-weight: 300;	
+		border-bottom: 2px solid #000000;
+	}
+
+	.events .mid .comingevents #menuevents li 
+	{
+		display: block;
+		float: left;
+	}
+
+	.events .mid .comingevents #menuevents li a
+	{
+		float: left;
+		color: #000000;
+		text-decoration: none;
+		height: 24px;
+		padding: 9px 15px 0;
+		font-weight: normal;
+		margin-left:500px;
+	}
+
+	.form .mid
+	{
+		background-color:white;
+	}
+	.form .mid #job h1
+	{
+	text-align:center;
+	padding-bottom:30px;
+	}
+
+	.form .mid #job h2,p
+	{
+	text-align:center;
+	}
+
+	.form .mid .benefit h2,p
+	{
+	text-align:left;
+	}
+
+	.form .mid #welcome h2,p
+	{
+	text-align:left;
+	}
+
+	.form .mid #department h2,p
+	{
+	text-align:left;
+	}
+	
+	.mbo #banner
+	{
+		margin-left:auto;
+		margin-right:auto;
+		width: 1200px;
+		height: 120px;
+	}
+	.mbo .mid
+	{
+		background-color:white;
+		padding-bottom:10px;
+	}
+	
+	.mbo .mbointroduction h1,p
+	{
+		text-align:center;
+	}
+	
+	.mbo .mbomovies table
+	{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.mbo .mbomovies tbody td{
+	text-align:center;
+	background-color:#FCDFFF;
+}
+
+	.mbo .mbomovies thead th{
+	text-align:center;
+	font-size:16pt;
+	background-color:#FDD7E4;
+	color:black;
+	border:2px solid black;
+	}
+	
+	.mbo .comingsoon table
+	{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.mbo .comingsoon tbody td{
+	background-color:#FCDFFF;
+	text-align:center;
+	border:2px solid black;
+}
+	
+	.mbo .comingsoon thead th{
+	text-align:center;
+	font-size:15pt;
+	background-color:#FDD7E4;
+	color:black;
+	border:2px solid black;
+	}
+	
+	.mbo #bookticket
+	{
+		text-align:center;
+	}
+	
+	.mbo fieldset legend,p
+	{
+		text-align:center;
+	}
+	
+	.service #banner
+	{
+		margin-left:auto;
+		margin-right:auto;
+		width: 1200px;
+		height: 350px;
+	}
+	.service .mid
+	{
+	background-color:white;
+	padding-bottom:30px;
+	}
+
+	.service .mid #services
+	{
+	text-align:center;
+	}
+
+	.service #tableservice 
+	{
+	color:#696969;
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid black;
+	background-color:#FFFFFF;
+	margin-left:auto; 
+    margin-right:auto;
+	}
+
+	.service  #tableservice th,tr,td
+	{
+	border:2px solid black;
+	background-color:#F9A7B0;
+	color:black;
+	}
+
+	.service #tableservice td
+	{
+	font-size:10pt;
+	width:200px;
+	height:200px;
+	background-color:#F9A7B0;
+	color:white;
+	}
+
+	.service #tableservice table,th,h2
+	{
+	color:#000000;
+	text-align:center;
+	}
+	
+	.aboutus #banner
+	{
+		margin-left:auto;
+		margin-right:auto;
+		width: 1300px;
+		height: 500px;
+	}
+	
+	.aboutus .mid
+	{
+		background-color:white;
+	}
+	
+	.aboutus .mid h1
+	{
+		text-align:left;
+		margin-left:150px;
+	}
+	.aboutus #tableabout
+	{
+		margin-left:auto;
+		margin-right:auto;
+		background-color:pink;
+		border: 2px solid black;
+		color: #000000;
+		text-align:center;
+	}
+	
+	.aboutus #employment p, h2
+	{
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	
+	.feedback #banner
+	{
+		margin-left:auto;
+		margin-right:auto;
+		width: 1200px;
+		height: 600px;
+	}
+	.feedback .mid
+	{
+		background-color:white;
+	}
+	
+	.feedback .mid h2
+	{
+		text-align:center;
+	}
+	
+	.feedback #feedback table
+	{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.feedback #feedback
+	{
+		background-color:#FAAFBA;
+	}
+	
+	.feedback #feedback th,td
+	{
+		background-color:#F778A1;
+		border: 2px solid black;
+	}
+	
+	<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+</p>
+
+	
+	

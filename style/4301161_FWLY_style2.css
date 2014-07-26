@@ -1,0 +1,684 @@
+body {
+
+font-family:verdana;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	margin-right:auto;
+		background-image:url(images/theblue.jpg);
+
+	background-position:50% 50%;
+}
+		
+.top{
+	
+	max-width:1200px;
+	margin-top:auto;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:auto;
+	background-color: #2A0A22;
+	border: 5px outset #190718;
+	border-radius: 3px;
+	box-shadow: 0px 0px 0px #2A0A22;
+	}
+	
+	
+#menu {
+  background: #000000;
+  width: auto;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  ;
+}
+#menu ul:after {
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#menu ul li {
+  float: left;
+  display: block;
+  padding: 0;
+}
+#menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#menu ul li a:hover {
+  color: #454a91;
+}
+#menu ul li a:hover:before {
+  width: 100%;
+}
+#menu ul li a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #454a91;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#menu ul li.last > a:after,
+#menu ul li:last-child > a:after {
+  display: none;
+}
+#menu ul li.active a {
+  color: #454a91;
+}
+#menu ul li.active a:before {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #menu ul li {
+    float: none;
+  }
+  #menu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #menu ul li a:after {
+    display: none;
+  }
+  #menu ul li a:before {
+    height: 1px;
+    background: #ffffff;
+    width: 100%;
+    opacity: .2;
+  }
+  #menu ul li.last > a:before,
+  #menu ul li:last-child > a:before {
+    display: none;
+  }
+}
+
+
+#border{
+
+float:left;
+margin-right:10px;
+	}
+
+.banner{text-align: center;}
+
+h1.battle {color:#FAFAFA;
+	text-align:center;
+	    }
+	
+.dota2{
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+	border-style:solid;
+	border-color:#ff0000 #0000ff;
+}
+
+.dota2 	.dota2introduction h1,p{
+	color:white;
+	text-align:center;
+}
+
+	
+.dota2 .dota2introduction .tHespring{
+	text-align:center;
+	width:100%;
+}	
+	
+.dota2 .mid .prize h2{
+text-align:center;
+font-family:"Monaco";
+color:#F4FA58;
+}
+
+.dota2 .mid .prize table{
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid #0B615E;
+	box-shadow:0px 30px 90px #0B615E;
+	}
+
+.dota .mid .prize table,th{
+	color:white;
+	background-color:black;
+	border:1px solid white;
+}
+
+.dota .mid .prize table tr,td{
+	
+	color:white;
+	border:1px solid white;
+	}
+	
+.dota2 .mid .Proteam h1{
+padding-top:30px;
+text-align:center;
+color:#BDBDBD;
+}
+
+.dota2 .mid h2{
+	color:white;
+	text-align:right;
+	font-family:Helvetica;
+}
+
+.bottom h2{
+	color:white;	
+	text-align:left;
+	font-family:Helvetica;
+}
+
+.bottom h3{
+	color:#FA5858;	
+	text-align:left;
+	font-family:Helvetica;
+}
+
+.bottom p{
+color:white;	
+	text-align:left;
+	font-family:Helvetica;
+}
+
+#phoneno{
+	color:blue;	
+	text-align:left;
+	font-family:Helvetica;
+	}
+	
+	
+	
+/*index*/
+.index .mid .indextable {
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid #0080FF;
+	box-shadow:0px 30px 90px #3104B4;
+	}
+
+.index .mid .indextable th{
+	color:white;
+	background-color:#FE2EF7;
+	border:10px solid white;
+	}
+
+.index .mid .indextable td{
+	color:white;
+	border:1px solid white;
+	background-color:#5F04B4;
+	}
+	
+	
+	
+	/*events and news*/
+.eventsintro h1{
+	color:#D8D8D8;
+	text-align:left;
+	font-family:Helvetica;
+}
+	
+.eventsintro h4{
+	color:#FF0080;
+	text-align:left;
+	font-family:"Comic Sa		s MS";
+}
+	
+.eventsintro p{
+text-align:left;
+font-family:"Trebuchet MS";
+}
+	
+.eventsimages #highlights{
+color:#A9F5F2;
+font-family:"Lucida Console";
+}
+	
+.comingevents h2{
+color:#F7D358;
+font-family:"Courier New";	
+text-align:center;
+}
+	
+.events .mid .comingevents ul{
+	position: initial;
+	list-style-type:none;
+	display: block;
+	font-size:22px;
+	margin:0;
+	padding:0;
+}
+.events .mid .comingevents #menuevents{
+	width:auto;
+	background:#F0F0F0;
+	border-bottom:double;
+	border-bottom-color:#663333;
+	border-top:double;
+	border-top-color:#663333;
+	padding: 10px;
+}
+.events .mid .comingevents #menuevents ul:before {
+  content: '';
+  display: block;
+}
+.events .mid .comingevents #menuevents:after {
+  content: '';
+  display: table;
+  clear: both;
+}	
+.events .mid .comingevents #menuevents li:hover a {
+  color: #000000;
+  background-color:#B0B0B0;
+}
+.events .mid .comingevents #menuevents li:active a {
+  color: #fff;
+  background-color:#CC0099;
+  font-weight: 300;	
+  border-bottom: 2px solid #000000;
+}
+.events .mid .comingevents #menuevents li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.events .mid .comingevents #menuevents li a {
+  float: left;
+  color: #000000;
+  text-decoration: none;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
+  margin-left:400px;
+}
+	
+	/*about us*/
+	
+	
+	
+	/*contact us*/
+	.mid h1{
+		color: #F7D358	;
+		text-align: right;
+			}
+			
+	.mid .address h2{	
+			color:#F7D358;
+			text-align: right;
+			}
+	
+.bottom #phoneno{
+	color:lightgrey;	
+	text-decoration:underline;
+	padding-bottom:50px;
+}	
+	
+.bottom{
+	text-align:center;
+	background-color:#2E2E2E	;
+	height:850px;
+	padding:0;
+	border-bottom:none;
+}
+.bottom a{
+	color:#2EFEF7;
+}
+.bottom h2{
+	color:white;
+	text-align:center;
+}
+.bottom h3{
+	font-family:Verdana;
+	font-size:13pt;
+	color:red;
+	text-align:center;
+}
+
+.bottom #phoneno{
+text-align:center;
+}
+.bottom p{
+	color:lightgrey;
+	text-align:center;
+	
+}
+.bottom #copyright  p{
+	margin-left:auto;
+	margin-right:auto;
+	font-size:8pt;
+	padding-top:13px;
+	border:2px outset grey;
+	border-radius:0;
+	width:400px;
+	height:25px;
+	margin-top:auto;
+	color:black;
+	}	
+	
+	/*Active-RIN*/
+	.activerun .mid .activerunintro h1{
+	text-align: center;
+	color: #A4A4A4;
+	}
+	
+	.activerun .mid .activerunintro h4{
+	text-align:left;
+	color:#F781F3;
+	}
+	
+	.activerun.mid .activerunintro p{
+	text-align:left;
+	}
+	
+	.activerun .mid .registration h2{
+	text-align:left;
+	color:#F781F3
+	}
+	
+	.activerun .mid .registration  legend{
+	color:#F781F3;
+	}
+	
+	.activerun .mid .registration fieldset{
+	text-align:center;
+	}
+	
+	
+	/*form*/
+	.form .mid #job h1{
+	text-align:center;
+	color:#BCF5A9;
+	}
+	
+	.form .mid #job h2{
+	text-align:left;
+	color:#F5D0A9;
+	}
+	
+	.form .mid #job p{
+	color:#CECEF6;
+	}
+	
+	.form .mid .benefit h2{
+	text-align:left;
+	color:#BCF5A9;
+	}
+	
+	.form .mid .benefit p{
+	text-align:left;
+	color:white;
+	}
+	
+	.form .mid #welcome h2{
+	text-align:left;
+	color:#F7BE81;
+	}
+	
+	
+	/*mbo*/
+	.mbo .mid .mbointroduction h1{
+	text-align:center;
+	color:#A9F5BC;
+	font-family:Tahoma;
+	}
+	
+	.mbo.mid .mbointroduction p{
+	text-align:left;
+	color:#A9F5F2;
+	font-family:Georgia;
+	}
+	
+	.mbo .mid .mbomovies table{
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid #0B615E;
+	box-shadow:0px 30px 90px #0B615E;
+	
+	}
+	
+	.mbo .mid .mbomovies thead th{
+	color:white;
+	background-color:red;
+	border:1px ;
+	text-align:center;
+	}
+	
+	.mbo .mid .mbomovies tbody td{
+	color:white;
+	border:1px solid black;
+	font-family: "Book Antiqua";
+	text-align:center;
+	}
+	
+	.mbo .mid .comingsoon table{
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid #2EFEC8;
+	box-shadow:0px 30px 90px #2EFEC8;
+	
+	}
+	
+	.mbo .mid .comingsoon tbody th{
+	color:white;
+	background-color:grey;
+	border:1px solid grey;
+	text-align:center;
+	}
+	
+	.mbo .mid  .comingsoon tbody td{
+	color:white;
+	border:1px solid black;
+	font-family: "Book Antiqua";
+	text-align:center;	
+	}
+	
+	.mbo .mid #bookticket{
+	font-family:Georgia;
+	color:#F3F781;
+	text-align:left;
+	}	
+	
+	.mbo legend{
+	color:#CEECF5;
+	}
+	
+	
+	
+	/*service*/
+	.service .mid #services{
+	text-align:center;
+	font-family:Charcoal;
+	color:#A9BCF5;
+	}
+	
+	.service .mid #tableservice tbody{
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid #610B4B;
+	box-shadow:0px 30px 90px #610B4B;
+	
+	}
+	
+	
+	.service .mid #tableservice tbody th{
+	color:white;
+	background-color:blue;
+	border:10px ;
+	text-align:center;
+	font-family:Geneva;
+	font-size:18pt;
+	}
+	
+	.service .mid #tableservice tbody td{
+	color:white;
+	border:10px solid black;
+	font-family: sans-serif;
+	text-align:center;
+	}
+	
+	
+		
+	/*feedback*/	
+	.feedback  #feedback{
+	text-align:center;
+	}
+	
+	.feedback .mid legend{
+	color:#2E9AFE;
+	font-family: "Lucida Grande";
+	font-size:18pt;
+	}
+	
+	.feedback #feedback fieldset table{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

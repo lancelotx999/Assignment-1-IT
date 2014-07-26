@@ -1,0 +1,147 @@
+/*SEANLEE
+*/
+.index
+{
+	max-width:1230px;
+	max-height:8300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+	text-align: center;
+}
+
+
+#NavigationMenu ul li
+{
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#NavigationMenu li {
+ 	display: block;
+	float: left;
+	position:relative;
+ 	margin: 0;
+ 	padding: 0;
+ 	border-top: 2.5px solid #FFFFFF;
+	border-left: 2.5px solid #FFFFFF;
+	border-bottom: 2.5px solid #FFFFFF;
+	border-right: 2.5px solid #FFFFFF;;
+}
+
+#NavigationMenu li a 
+{
+  float: left;
+  position:relative;
+  color: #000000;
+  text-decoration: none;
+  height: 30px;
+  padding: 10px 15px 0;
+  font-weight: normal;
+
+  text-transform:uppercase;
+}
+
+#NavigationMenu li:hover a {
+  color: #000000;
+  background-color:#B0B0B0;
+}
+#NavigationMenu li:active a {
+  color: #fff;
+  background-color:#CC0099;
+  font-weight: 300;	
+  border-bottom: 2px solid #000000;
+}
+
+body#index a#index,
+body#events a#events,
+body#about a#about,
+body#contact a#contact,
+body#mbo a#mbo,
+body#service a#service,
+body#feedback a#feedback
+{
+	color: #fff;
+	background: #CC0099;
+}
+
+
+hr
+{
+	/*padding: 10px 0 0;*/
+	color: #000000;
+	border: 3px solid #505050;
+/*	border-radius: 8px;*/
+}
+
+/*.TableSettings tbody h2{
+	color:#000000;
+	font-family:"Arial";
+	text-align:center;
+}*/
+
+.TableSettings
+{
+	color:#000000;
+	border:3px solid #505050;
+	background-color:#FFFFFF;
+	padding:0;
+	margin-left:auto; 
+    margin-right:auto;
+    font-family:"Arial";
+	box-shadow: 0px 30px 90px #888888;
+}
+
+.TableSettings th,
+.TableSettings tr,
+.TableSettings td
+{
+	background-color:#FFFFFF;
+	border:3px solid #505050;
+	color: #000000;
+}
+
+.bottom #PhoneNumber{
+	color:#000000;	
+	text-decoration:underline;
+	padding-bottom:50px;
+}	
+	
+.bottom{
+	text-align:center;
+	/*background-color:#663399;*/
+	height:850px;
+	padding:0;
+	border-bottom:none;
+}
+
+.bottom p{
+	color:#000000;
+	text-align:center;
+	
+}
+
+.bottom #copyright  p
+{
+	margin-left:auto;
+	margin-right:auto;
+	font-size:8pt;
+	padding-top:13px;
+	border:2px outset grey;
+	border-radius:0;
+	width:400px;
+	height:25px;
+	margin-top:auto;
+	color:black;
+}
+	
+
+
+/*LHH*/

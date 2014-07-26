@@ -1,0 +1,750 @@
+.index{
+	max-width:1230px;
+	max-height:2500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.mbo{
+	max-width:1230px;
+	max-height:8300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.service{
+	max-width:1230px;
+	max-height:4000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.dota2{
+	max-width:1230px;
+	max-height:5500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.activerun{
+	max-width:1230px;
+	max-height:6000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.events{
+	max-width:1230px;
+	max-height:7000px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.feedback{
+	max-width:1230px;
+	max-height:2500px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.aboutus{
+	max-width:1230px;
+	max-height:3500px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.contact{
+	max-width:1230px;
+	max-height:3500px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+.form{
+	max-width:1230px;
+	max-height:4000px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:auto;
+	background-color: #FFFFFF;
+	border: 3px solid #505050;
+	border-radius: 8px;
+	box-shadow: 0px 30px 90px #888888;
+	font-family:"Verdana";
+}
+
+#logo{
+	text-align:center;
+}	
+
+.index #banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+.mbo #banner{
+	text-align:center;
+	margin-top:50px;
+}	
+
+.service  #banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+.dota2 .mid .banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+.activerun #banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+.feedback #banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+.aboutus #banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+.contact #banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+.form #banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+/*#menu{
+	width:auto;
+	background:#F0F0F0;
+	border-bottom:double;
+	border-bottom-color:#663333;
+	border-top:double;
+	border-top-color:#663333;
+	padding: 10px;
+}*/
+/*
+#menu ul	
+{
+	position: initial;
+	list-style-type:none;
+	display: block;
+	font-size: 22px;
+	margin:0;
+	padding:0;
+}*/
+
+/*#menu ul:before 
+{
+  content: '';
+  display: block;
+}*/
+/*#menu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}	
+*/
+/*#menu li:hover a {
+  color: #000000;
+  background-color:#B0B0B0;
+}*/
+/*#menu li:active a {
+  color: #fff;
+  background-color:#CC0099;
+  font-weight: 300;	
+  border-bottom: 2px solid #000000;
+}*/
+
+/*#menu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}*/
+/*#menu li a {
+  float: left;
+  color: #000000;
+  text-decoration: none;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
+  text-transform:uppercase;
+}*/
+	
+.bottom #phoneno{
+	color:lightgrey;	
+	text-decoration:underline;
+	padding-bottom:50px;
+}	
+	
+.bottom{
+	text-align:center;
+	background-color:#663399;
+	height:850px;
+	padding:0;
+	border-bottom:none;
+}
+
+.bottom a{
+	color:#33CCFF;
+}
+
+.bottom h2{
+	color:white;
+	padding-top:50px;
+}
+
+.bottom h3{
+	font-family:Verdana;
+	font-size:13pt;
+	color:white;
+}
+
+.bottom p{
+	color:lightgrey;
+	text-align:center;
+	
+}
+
+.bottom #copyright  p{
+
+	margin-left:auto;
+	margin-right:auto;
+	font-size:8pt;
+	padding-top:13px;
+	border:2px outset grey;
+	border-radius:0;
+	width:400px;
+	height:25px;
+	margin-top:auto;
+	color:black;
+	}
+	
+.index .indextable tbody h2{
+	color:#FFFFFF;
+	font-family:"Arial";
+	text-align:center;
+}
+
+.index .indextable{
+	color:#696969;
+	border:2px solid purple;
+	background-color:#FFFFFF;
+	padding:0;
+	margin-left:auto; 
+    margin-right:auto;
+	box-shadow: 0px 30px 90px #888888;
+}
+
+.index .indextable th{
+	background-color:#9933CC;
+}
+
+.index .indextable td{
+	background-color:#CC3399;
+}
+
+.index .indextable th, tr, td{
+	border:2px solid purple;
+}
+
+p{
+	color:#696969;
+}
+
+.index .mid{
+	background-color:lightgrey;
+}
+
+.mbo .mid{
+	background-color:lightgrey;;
+}
+
+.mbo .mbointroduction h1{
+	text-align:center;
+	font-family:"Verdana";
+}
+
+.mbo .mbointroduction p{
+	margin-left:10px;
+	margin-right:auto;
+	font-size:13pt;
+	color:brown;
+}
+
+.mbo .mid .mbomovies table{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+}
+
+.mbo .mbomo	vies tbody td{
+	text-align:center;
+	background-color:#180000;
+}
+
+.mbo .mbomovies thead th{
+	text-align:center;
+	font-size:15pt;
+	background-color:#000080;
+	color:#FFFFFF;
+	border:2px solid #6666CC;
+}
+
+.mbo .comingsoon table{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+}
+
+.mbo .comingsoon tbody td{
+	background-color:#FFFFFF;
+	text-align:center;
+	border:2px solid black;
+}
+	
+.mbo .comingsoon thead th{
+	text-align:center;
+	font-size:15pt;
+	background-color:#000080;
+	color:#FFFFFF;
+	border:1px solid #6666CC;
+}
+
+.mbo .mid{
+	background-color:lightgrey;
+}
+
+.mbo body{
+	font-family:"Verdana";
+}
+
+.mbo .mid #bookticket
+{
+	text-align:center;
+	font-family:"Verdana";
+}
+
+.mbo .mid fieldset{
+	padding:1em;
+	width:10%;
+	text-align:center;
+	margin-left:430px;
+}
+
+.service .mid{
+	background-color:lightgrey;
+	height:auto;
+}
+
+.service .mid #services{
+	text-align:center;
+	padding-top:30px;	
+}
+
+.service #tableservice {
+	color:#696969;
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid purple;
+	background-color:#FFFFFF;
+	padding:0;
+	margin-left:auto; 
+    margin-right:auto;
+	}
+
+.service  #tableservice th,tr,td{
+	border:2px solid purple;
+	background-color:darkgrey;
+	color:#000000;
+}
+
+.service #tableservice td{
+	font-size:9pt;
+	width:200px;
+	height:200px;
+	background-color:darkgrey;
+	color:white;
+}
+
+.service #tableservice table,th,h2{
+	color:#000000;
+	font-family:"Verdana";
+	text-align:center;
+}
+
+.dota2 .mid
+{
+	background-color:lightgrey;
+}
+
+.dota2 .mid .dota2introduction{
+	text-align:center;
+}
+
+.dota2 .mid .prize h2{
+	text-align:center;
+	font-family:"Arial";
+}
+
+.dota2 .mid .prize table{
+	margin-left:auto;
+	margin-right:auto;
+	border:2px solid #00FF66;
+	box-shadow: 0px 30px 90px #33CC66;
+}
+
+.dota2 .mid .prize table th{
+	color:white;
+	background-color:#336633;
+	border:0;
+}
+
+.dota2 .mid .prize table tr,td{
+	background-color:#66CC00;
+	color:white;
+	border:0;
+}
+
+.dota2 .mid .Proteam h1{
+	padding-top:30px;
+	text-align:right;
+	text-decoration:overline;
+}
+
+.dota2 .mid .Proteam h2{
+	text-align:center;
+	padding-bottom:20px;
+	text-decoration:underline;
+	}
+
+.dota2 .bottom h2{
+	text-align:center;
+}
+
+.activerun .mid{
+	background-color:lightgrey;
+}
+
+.activerun .mid .activerunintro h1{
+	text-align:center;
+	font-family:"Serif";
+	padding-top:10px;
+}
+
+.activerun .mid .activerunintro .event{
+	text-decoration:underline;
+	color:#9999CC;
+}
+
+.activerun .mid .registration h1{
+	text-align:center;
+	font-family:"Arial";
+}
+
+.activerun .mid .registration h2,h4,p{
+	text-align:center;
+}
+
+.activerun .mid .registration p{
+	font-size:11pt;
+}
+
+.activerun .mid fieldset{
+	padding:1em;
+	width:40%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.events .mid{
+	background-color:lightgrey;
+}
+
+.events .mid .eventsintro h1{
+	text-align:left;
+	font-size:25pt;
+	color:#9966FF;
+	text-decoration:underline;
+	font-family:"Times New Roman"
+}
+
+.events .mid .eventsintro h4{
+	text-align:left;
+	font-weight:500;
+	margin-left:5px;
+}
+
+.events .mid .eventsintro p{
+	text-align:left;
+	margin-left:5px;
+}
+
+.events .mid #highlights{
+	text-align:left;
+	padding-top:20px;
+	font-weight:200;
+	margin-left:10px;
+}
+
+.events .mid .eventsimages p{
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+.events .mid .comingevents h2{
+	text-align:left;
+	margin-left:10px;
+}
+
+.events #banner{
+	text-align:center;
+	margin-top:50px;
+}
+
+.events .mid .comingevents ul{
+	position: initial;
+	list-style-type:none;
+	display: block;
+	font-size:22px;
+	margin:0;
+	padding:0;
+}
+.events .mid .comingevents #menuevents{
+	width:auto;
+	background:#F0F0F0;
+	border-bottom:double;
+	border-bottom-color:#663333;
+	border-top:double;
+	border-top-color:#663333;
+	padding: 10px;
+}
+
+.events .mid .comingevents #menuevents ul:before {
+  content: '';
+  display: block;
+}
+.events .mid .comingevents #menuevents:after {
+  content: '';
+  display: table;
+  clear: both;
+}	
+
+.events .mid .comingevents #menuevents li:hover a {
+  color: #000000;
+  background-color:#B0B0B0;
+}
+.events .mid .comingevents #menuevents li:active a {
+  color: #fff;
+  background-color:#CC0099;
+  font-weight: 300;	
+  border-bottom: 2px solid #000000;
+}
+
+.events .mid .comingevents #menuevents li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.events .mid .comingevents #menuevents li a {
+  float: left;
+  color: #000000;
+  text-decoration: none;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
+  margin-left:400px;
+}
+
+.feedback .mid{
+	background-color:lightgrey;
+}
+
+.feedback .mid h2{
+	font-family:"Arial"
+}
+
+.feedback .mid #feedback{
+	padding:1em;
+	width:50%;
+	text-align:center;
+	margin-left:330px;
+	background-color:#A8A8A8;
+}
+
+.feedback .mid #feedback p{
+	color:black;
+}
+
+.feedback .mid #feedback table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.feedback .mid #feedback table tr td{
+	background-color:#A8A8A8;
+	border:1px solid black;
+}
+
+.feedback .mid #feedback table th{
+	border:1px solid black;
+}
+
+.feedback .mid #feedback legend{
+	color:black;
+}
+
+.aboutus .mid{
+	background-color:lightgrey;
+}
+
+.aboutus .mid h1{
+	text-align:center;
+	font-family:"Arial";
+}
+
+.aboutus .mid #tableabout tr td{
+	background-color:#B0B0B0;
+	border:2px outset #181818 ;
+	color:#000000;	
+	text-align:center;
+}
+
+.aboutus .mid #tableabout{
+	max-width:200px;
+	margin-left:300px;
+	box-shadow: 0px 45px 90px #FFCCFF;
+}
+
+.aboutus .mid #employment p{
+	text-align:center;
+	padding-top:30px;
+}
+
+.aboutus .mid #employment h2{
+	text-align:center;
+	font-family:"Arial";
+}
+
+.aboutus .mid #employment p{
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.aboutus .mid #employment form{
+	padding-bottom:10px;
+}
+
+.contact .mid{
+	background-color:lightgrey;
+}
+
+.contact .mid .address h1{
+	text-align:center;
+	font-family:"Arial";
+}
+
+.contact .mid .address h2{
+	font-weight:300;
+	color:#585858;
+}
+
+.contact .mid .address #officeno, #faxno{
+	color:#6666CC;	
+	text-decoration:underline;
+}
+
+.form .mid{
+	background-color:lightgrey;
+}
+
+.form .mid #job h1{
+	text-align:center;
+	font-family:"Arial";
+	padding-bottom:30px;
+}
+
+.form .mid #job h2,p{
+	text-align:left;
+}
+
+.form .mid .benefit h2,p{
+	text-align:left;
+}
+
+.form .mid #welcome h2,p{
+	text-align:left;
+}
+
+.form .mid #department h2,p{
+	text-align:left;
+}
+
+

@@ -1,9 +1,12 @@
 /*SEANLEE
 */
-.index
+.Index,
+.NewsEvents,
+.StoreDirectory,
+.GettingHere
 {
 	max-width:1230px;
-	max-height:8300px;
+/*	max-height:8300px;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:auto;
@@ -15,6 +18,31 @@
 	text-align: center;
 }
 
+h1
+{
+	font-size: 32;
+	text-decoration: underline;
+}
+
+p
+{
+	text-align:justify;
+	max-width: 925px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12pt;
+	color: grey;
+}
+
+h2
+{
+	text-align:justify;
+	max-width: 925px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20pt;
+	text-decoration: underline;
+}
 
 #NavigationMenu ul li
 {
@@ -60,13 +88,14 @@
   border-bottom: 2px solid #000000;
 }
 
-body#index a#index,
-body#events a#events,
-body#about a#about,
-body#contact a#contact,
-body#mbo a#mbo,
-body#service a#service,
-body#feedback a#feedback
+body#Index a#Index,
+body#NewsEvents a#NewsEvents,
+body#StoreDirectory a#StoreDirectory,
+body#About a#About,
+body#Contact a#Contact,
+body#Service a#Service,
+body#Feedback a#Feedback,
+body#GettingHere a#GettingHere
 {
 	color: #fff;
 	background: #CC0099;
@@ -108,13 +137,15 @@ hr
 	color: #000000;
 }
 
-.bottom #PhoneNumber{
+.bottom #PhoneNumber
+{
 	color:#000000;	
 	text-decoration:underline;
 	padding-bottom:50px;
 }	
 	
-.bottom{
+.bottom
+{
 	text-align:center;
 	/*background-color:#663399;*/
 	height:850px;
@@ -122,7 +153,8 @@ hr
 	border-bottom:none;
 }
 
-.bottom p{
+.bottom p
+{
 	color:#000000;
 	text-align:center;
 	
